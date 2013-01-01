@@ -1,7 +1,7 @@
 ## Use the R_HOME indirection to support installations of multiple R version
 
-PKG_CXXFLAGS=-I./webstor -I./openssl/include/openssl/ -I./libxml2/include/libxml2/ -O3 -w -c -fmessage-length=0 -fPIC
-PKG_LIBS = `$(R_HOME)/bin/Rscript -e "Rcpp:::LdFlags()"` ./webstor/webstor.a ./libxml2/.libs/libxml2.a ./openssl/libssl.a ./openssl/libcrypto.a -lcurl
+PKG_CXXFLAGS=-I./webstor -I./openssl/include/openssl/ -I./libxml2/include/libxml/ -O3 -w -c -fmessage-length=0 -fPIC
+PKG_LIBS = `$(R_HOME)/bin/Rscript -e "Rcpp:::LdFlags()"` ./webstor/libwebstor.a ./libxml2/.libs/libxml2.a ./openssl/libssl.a ./openssl/libcrypto.a -lcurl
 
 ## As an alternative, one can also add this code in a file 'configure'
 ##
@@ -29,7 +29,7 @@ PKG_LIBS = `$(R_HOME)/bin/Rscript -e "Rcpp:::LdFlags()"` ./webstor/webstor.a ./l
 ##all: mylibs $(SHLIB)
 
 ##mylibs:
-##	cd openssl; ./configure --with-pic --enable-ldap; make
+##	cd openssl; ./configure shared; make
 ##	cd libxml2; ./configure --with-pic; make
-##	cd webstor; make webstor.a
+##	cd webstor; make libwebstor 
 

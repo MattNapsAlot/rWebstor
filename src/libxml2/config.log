@@ -1394,7 +1394,7 @@ configure:13318: $? = 0
 configure:13318: result: yes
 configure:13318: checking for isnand
 configure:13318: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccDeayfz.o: In function `main':
+/tmp/ccRmJgyF.o: In function `main':
 /home/mfuria/workspace/rWebstor/src/libxml2/conftest.c:95: undefined reference to `isnand'
 collect2: ld returned 1 exit status
 configure:13318: $? = 1
@@ -1500,7 +1500,7 @@ configure: failed program was:
 configure:13318: result: no
 configure:13318: checking for fp_class
 configure:13318: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/cc5EOYaG.o: In function `main':
+/tmp/ccFi7ZCL.o: In function `main':
 /home/mfuria/workspace/rWebstor/src/libxml2/conftest.c:95: undefined reference to `fp_class'
 collect2: ld returned 1 exit status
 configure:13318: $? = 1
@@ -1606,7 +1606,7 @@ configure: failed program was:
 configure:13318: result: no
 configure:13318: checking for class
 configure:13318: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccBscVRG.o: In function `main':
+/tmp/ccl4s3aN.o: In function `main':
 /home/mfuria/workspace/rWebstor/src/libxml2/conftest.c:95: undefined reference to `class'
 collect2: ld returned 1 exit status
 configure:13318: $? = 1
@@ -1712,7 +1712,7 @@ configure: failed program was:
 configure:13318: result: no
 configure:13318: checking for fpclass
 configure:13318: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccgcGAbB.o: In function `main':
+/tmp/cc4GkQYS.o: In function `main':
 /home/mfuria/workspace/rWebstor/src/libxml2/conftest.c:95: undefined reference to `fpclass'
 collect2: ld returned 1 exit status
 configure:13318: $? = 1
@@ -1836,7 +1836,7 @@ configure:13342: $? = 0
 configure:13342: result: yes
 configure:13342: checking for _stat
 configure:13342: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccTv9J6W.o: In function `main':
+/tmp/ccOifao1.o: In function `main':
 /home/mfuria/workspace/rWebstor/src/libxml2/conftest.c:100: undefined reference to `_stat'
 collect2: ld returned 1 exit status
 configure:13342: $? = 1
@@ -2030,7 +2030,7 @@ configure:14233: checking for shl_load
 configure:14233: gcc -o conftest -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -Wno-long-long   conftest.c  >&5
 conftest.c:104:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
 conftest.c:113:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
-/tmp/cc0lSRyX.o: In function `main':
+/tmp/ccRwn9s6.o: In function `main':
 /home/mfuria/workspace/rWebstor/src/libxml2/conftest.c:115: undefined reference to `shl_load'
 collect2: ld returned 1 exit status
 configure:14233: $? = 1
@@ -2262,7 +2262,7 @@ configure:14280: checking for dlopen
 configure:14280: gcc -o conftest -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -Wno-long-long   conftest.c  >&5
 conftest.c:104:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
 conftest.c:113:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
-/tmp/ccXxttg6.o: In function `main':
+/tmp/ccAYFvKe.o: In function `main':
 /home/mfuria/workspace/rWebstor/src/libxml2/conftest.c:115: undefined reference to `dlopen'
 collect2: ld returned 1 exit status
 configure:14280: $? = 1
